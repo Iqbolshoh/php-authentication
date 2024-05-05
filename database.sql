@@ -1,11 +1,9 @@
 CREATE TABLE `account` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(255),
-  `surname` VARCHAR(255) NOT NULL,
-  `number` VARCHAR(255),
-  `email` VARCHAR(255),
-  `username` VARCHAR(255),
-  `password` VARCHAR(255),
-  PRIMARY KEY (`id`),
-  UNIQUE KEY (`username`)
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL,
+    `surname` VARCHAR(255) NOT NULL,
+    `number` VARCHAR(20) UNIQUE,
+    `email` VARCHAR(255) UNIQUE,
+    `username` VARCHAR(100) UNIQUE,
+    `password` VARCHAR(255) NOT NULL
 );
