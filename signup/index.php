@@ -38,6 +38,7 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../images/favicon.ico">
 </head>
 
 <body>
