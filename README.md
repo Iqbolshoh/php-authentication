@@ -68,7 +68,7 @@ To use the application, open your browser and navigate to `http://localhost/php-
 
 ### User Registration
 
-1. Go to the signup page (`signup.php`).
+1. Go to the signup page (`signup/`).
 2. Fill out the registration form and submit it.
 3. Upon successful registration, you will be redirected to the login page.
 
@@ -76,7 +76,7 @@ To use the application, open your browser and navigate to `http://localhost/php-
 
 ### User Login
 
-1. Go to the login page (`login.php`).
+1. Go to the login page (`login/`).
 2. Enter your credentials and submit the form.
 3. Upon successful login, you will be redirected to the index page (`index.php`).
 
@@ -105,9 +105,9 @@ To use the application, open your browser and navigate to `http://localhost/php-
 ### PHP Files
 
 - **index.php**: Main entry point of the application after login.
-- **login.php**: Handles user login functionality.
+- **login/**: Handles user login functionality.
 - **logout.php**: Handles user logout functionality.
-- **signup.php**: Handles user registration functionality.
+- **signup/**: Handles user registration functionality.
 
 ## Technologies Used
 
