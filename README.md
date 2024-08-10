@@ -48,7 +48,7 @@ To use the application, open your browser and navigate to `http://localhost/php-
 
 ### User Logout
 
-1. Click the logout button or navigate to the logout page (`logout.php`).
+1. Click the logout button or navigate to the logout page (`logout/`).
 2. You will be logged out and redirected to the login page.
 
 ## Technologies Used
