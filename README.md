@@ -1,18 +1,8 @@
 # PHP Authentication System
 
-![Banner](images/banner.png)
-
 This repository contains a user authentication system built with PHP and MySQL. It includes features such as user registration, login, and logout functionalities.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Files Description](#files-description)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Contact](#contact)
+![Banner](images/banner.png)
 
 ## Project Structure
 
