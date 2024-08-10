@@ -4,32 +4,6 @@ This repository contains a user authentication system built with PHP and MySQL. 
 
 ![Banner](images/banner.png)
 
-## Project Structure
-
-The project structure is as follows:
-
-```
-.
-├── css
-│   ├── styles.css
-│   ├── signup.css
-│   ├── login.css
-├── images
-│   ├── banner.png
-│   ├── login.png
-│   ├── signup.png
-├── config.php
-├── database.sql
-├── index.php
-├── login
-│   ├── index.php
-├── logout
-│   ├── index.php
-├── signup
-│   ├── index.php
-├── README.md
-```
-
 ## Installation
 
 To run this project locally, follow these steps:
