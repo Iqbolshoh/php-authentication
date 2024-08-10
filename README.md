@@ -77,28 +77,6 @@ To use the application, open your browser and navigate to `http://localhost/php-
 1. Click the logout button or navigate to the logout page (`logout.php`).
 2. You will be logged out and redirected to the login page.
 
-## Files Description
-
-### Directories
-
-- **css/**: Contains custom CSS files for styling.
-  - **styles.css**: Custom styles for the application.
-- **images/**: Contains image files used in the application.
-  - **banner.png**: Banner image for the README file.
-  - **login.png**: Screenshot of the login page.
-  - **signup.png**: Screenshot of the signup page.
-- **includes/**: Contains configuration and other include files.
-  - **config.php**: Database configuration file.
-- **sql/**: Contains SQL files.
-  - **database.sql**: SQL file to create and populate the database.
-
-### PHP Files
-
-- **index.php**: Main entry point of the application after login.
-- **login/**: Handles user login functionality.
-- **logout.php**: Handles user logout functionality.
-- **signup/**: Handles user registration functionality.
-
 ## Technologies Used
 
 - ![HTML5](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**
