@@ -2,7 +2,7 @@
 
 This repository contains a user authentication system built with PHP and MySQL. It includes features such as user registration, login, and logout functionalities.
 
-![Banner](images/banner.png)
+![Banner](src/images/banner.png)
 
 ## Installation
 
@@ -36,7 +36,7 @@ To use the application, open your browser and navigate to `http://localhost/php-
 2. Fill out the registration form and submit it.
 3. Upon successful registration, you will be redirected to the login page.
 
-![Signup](images/singup.png)
+![Signup](src/images/singup.png)
 
 ### User Login
 
@@ -44,7 +44,7 @@ To use the application, open your browser and navigate to `http://localhost/php-
 2. Enter your credentials and submit the form.
 3. Upon successful login, you will be redirected to the index page (`index.php`).
 
-![Login](images/login.png)
+![Login](src/images/login.png)
 
 ### User Logout
 
