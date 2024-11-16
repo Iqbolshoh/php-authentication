@@ -16,15 +16,13 @@ To run this project locally, follow these steps:
    ```bash
    cd php-authentication
    ```
-3. Make sure you have a local server setup (e.g., XAMPP, WAMP, MAMP) and place the project files in the server's root directory.
-
-4. Import the database:
+3. Import the database:
    - Open your MySQL database management tool (e.g., phpMyAdmin).
    - Create a new database.
    - Import the `database.sql` file into the new database.
 
-5. Update the database configuration:
-   - Open `includes/config.php` and update the database connection details.
+4. Update the database configuration:
+   - Open `config.php` and update the database connection details.
 
 ## Usage
 
