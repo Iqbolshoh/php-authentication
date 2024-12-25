@@ -19,7 +19,7 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['session_token'])) {
 
     $result = $query->select('users', 'id', "username = ?", [$_COOKIE['username']], 's');
 
-    if (isset($result)) {
+    if (!empty($result)) {
         $user = $result[0];
 
         $_SESSION['loggedin'] = true;
