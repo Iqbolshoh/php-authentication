@@ -10,11 +10,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iqbolshoh/php-authentication.git
+   git clone https://github.com/iqbolshoh/php-auth-system.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd php-authentication
+   cd php-auth-system
    ```
 3. Import the database:
    - Open your MySQL database management tool (e.g., phpMyAdmin).
@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-To use the application, open your browser and navigate to `http://localhost/php-authentication`. This will load the main page of the application.
+To use the application, open your browser and navigate to `http://localhost/php-auth-system`. This will load the main page of the application.
 
 ### User Registration
 
