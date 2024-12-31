@@ -32,7 +32,7 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['session_token'])) {
 }
 
 if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
+    $username = strtolower($_POST['username']);
     $password = $query->hashPassword($_POST['password']);
     $result = $query->select('users', '*', "username = ? AND password = ?", [$username, $password], 'ss');
 
@@ -46,9 +46,9 @@ if (isset($_POST['submit'])) {
         setcookie('username', $username, time() + (86400 * 30), "/", "", true, true);
         setcookie('session_token', session_id(), time() + (86400 * 30), "/", "", true, true);
 
-        ?>
+?>
         <script>
-            window.onload = function () {
+            window.onload = function() {
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
@@ -60,11 +60,11 @@ if (isset($_POST['submit'])) {
                 });
             };
         </script>
-        <?php
+    <?php
     } else {
-        ?>
+    ?>
         <script>
-            window.onload = function () {
+            window.onload = function() {
                 Swal.fire({
                     position: 'top-end',
                     icon: 'error',
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
                 });
             };
         </script>
-        <?php
+<?php
     }
 }
 ?>
@@ -123,7 +123,7 @@ if (isset($_POST['submit'])) {
 
     <script src="../src/js/sweetalert2.js"></script>
     <script>
-        document.getElementById('toggle-password').addEventListener('click', function () {
+        document.getElementById('toggle-password').addEventListener('click', function() {
             const passwordField = document.getElementById('password');
             const toggleIcon = this.querySelector('i');
 
